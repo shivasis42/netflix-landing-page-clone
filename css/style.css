@@ -103,7 +103,45 @@ img {
 	font-size: 1.5rem;
 	line-height: 1.25;
 	margin: 2rem 0 ;
+}
 
+/* Tabs */
+.tabs {
+	background: var(--dark-color);
+	padding-top: 1rem;
+	border-bottom: 3px solid #3d3d3d;
+}
+.tabs .container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.tabs p {
+	font-size: 1.2rem;
+	padding-top: 0.5rem;
+}
+
+.tabs .container > div {
+	padding: 1.5rem 0;
+}
+
+.tabs .container > div:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.tab-border {
+	border-bottom: 4px var(--primary-color) solid;
+}
+
+/* Container */
+.container {
+	max-width:70% ;
+	margin: auto;
+	padding: 0 2rem;
 }
 
 
