@@ -141,6 +141,7 @@ img {
 
 .tab-content {
 	padding: 3rem 0;
+	border-bottom: 3px solid #3d3d3d; ;
 }
 
 #tab-1-content .tab-1-content-inner {
@@ -166,6 +167,34 @@ img {
 	justify-content: center;
 	align-items: center;
 }
+
+/* Footer */
+.footer {
+	max-width: 75%;
+	margin: 5rem auto;
+	overflow: auto;
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+	line-height: 2rem;
+}
+
+.footer p {
+	font-size: 1.2rem;
+	margin-bottom: 1.5rem;
+}
+
+.footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 4rem;
+	justify-content: center;
+	align-items: center;
+}
+
 
 /* Container */
 .container {
